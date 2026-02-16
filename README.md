@@ -1,2 +1,4 @@
 # ColorsLab
 The COLORS application is a web application built using the LAMP stack (Linux, Apache, MySQL, PHP). It allows users to log in and manage a list of colors stored in a database. The frontend is built with HTML, CSS, and JavaScript, and communicates with PHP API endpoints that interact with the MySQL database. The backend handles user authentication and allows users to add and search for colors associated with their account. This project demonstrates how frontend and backend components work together in a full-stack web application
+
+Project done by Sriya Mahamkali sr696699@ucf.edu
