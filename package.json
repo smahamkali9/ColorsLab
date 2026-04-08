@@ -1,0 +1,22 @@
+{
+  "name": "colorslab",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:html": "htmlhint \"Public/*.html\"",
+    "lint:css": "stylelint \"Public/css/*.css\"",
+    "lint:js": "eslint \"Public/js/*.js\"",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^39.0.1"
+  }
+}
